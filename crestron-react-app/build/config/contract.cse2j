@@ -1,0 +1,56 @@
+{
+	"name": "Response",
+	"timestamp": "2022-04-26 14:42:33.805",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Whole system",
+	"signals": {
+		"states": {
+			"boolean": {
+				"2": {
+					"1": "Buttons.Red_Button_fb",
+					"2": "Buttons.Green_Button_fb",
+					"3": "Buttons.Yellow_Button_fb"
+				}
+			},
+			"numeric": {
+				"1": {
+					"1": "Room.Opacity_fb"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Room.Text_fb"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Buttons.Red_Pressed": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"Buttons.Green_Pressed": {
+					"joinId": 2,
+					"smartObjectId": 2
+				},
+				"Buttons.Yellow_Pressed": {
+					"joinId": 3,
+					"smartObjectId": 2
+				}
+			},
+			"numeric": {
+				"Room.Opacity_Value": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			},
+			"string": {
+				"Room.Text": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}
